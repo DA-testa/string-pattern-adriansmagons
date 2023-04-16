@@ -5,8 +5,8 @@ Q=256
 def read_input():
     tekstaievade = input()
     if tekstaievade.__contains__("I"):
-        pattern = str(input())
-        text = str(input())
+        pattern = input()
+        text = input()
         return (pattern, text)
         
         
