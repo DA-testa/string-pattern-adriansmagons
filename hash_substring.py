@@ -7,7 +7,7 @@ def read_input():
     if tekstaievade.__contains__("I"):
         pattern = input()
         text = input()
-        return (pattern, text)
+        return (pattern.rstrip(), text.rstrip())
         
         
     elif tekstaievade.__contains__("F"):
