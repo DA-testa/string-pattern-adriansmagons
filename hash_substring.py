@@ -1,6 +1,6 @@
 # python3
 global B, Q
-B=13
+B=23
 Q=256
 def read_input():
     tekstaievade = input()
